@@ -141,12 +141,11 @@ button:disabled {
 }
 
 @media screen and (max-width: 480px) {
-  .chat__sidebar {
-    height: 100vh;
-    color: #fff;
-    background: #333744;
-    width: 125px;
-    overflow-y: scroll;
+  .chat__main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 95vh;
   }
 
   .compose {
